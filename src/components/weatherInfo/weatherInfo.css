@@ -1,0 +1,53 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+.weather_left_side{
+    margin-top: 140px;
+} */
+
+.weather_left_side img{
+    height: 160px;
+    width: 160px;
+}
+
+.weather_right_side{
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.days-info-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.weather_right_side > p{
+    left: 0;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+
+.weather-info{
+    position: relative;
+    margin-top: 50px;
+    height: 60vh;
+    width: 80%;
+    padding: 50px 40px 50px 40px;
+    box-shadow: 15px 15px 15px 15px rgba(0, 0,0, 0.15);
+}

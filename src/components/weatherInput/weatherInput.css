@@ -1,0 +1,23 @@
+.weather-input{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.search-input{
+    width: 40%;
+    height: 10px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 15px 15px 30px rgba(0, 0,0, 0.15);
+    color: rgb(13, 9, 9);
+    border: none;
+    font-size: large;
+}
+
+
+.search-input:focus{
+    outline: none;
+    border: none;
+}

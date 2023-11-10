@@ -1,0 +1,53 @@
+
+.days {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -145px;
+}
+  
+.day {
+    width: 190px; /* Задайте фиксированную ширину для карточки */
+    background-color: rgba(245, 245, 245, 0.5);
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.day:hover {
+    transform: scale(1.05);
+}
+
+.days-name {
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    margin: 10px 0;
+    flex-shrink: 0; /* Запрет изменения размера карточки */
+    margin-bottom: 20px;
+}
+  
+.temperature {
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+  
+
+.day img{
+    margin-top: -10px;
+    height: 80px;
+    width: 80px;
+}
+.day h1{
+    font-size: 16px;
+}
